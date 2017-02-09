@@ -10,13 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.comsci.synna.myfirstapp.MainActivity">
 
+
     <TextView
+        android:text="@string/txtTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="สวัสดีแอนดรอยด์!"
-        android:textStyle="normal|bold"
-        android:textColor="@android:color/holo_red_light"
-        android:textAlignment="center"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/txtTitle"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/h1"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
 </RelativeLayout>
